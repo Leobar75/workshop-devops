@@ -14,5 +14,5 @@ export function setupCounter(element, add = 1) {
 
 
 export function addNumber(a, b) {
-  return a + b;
+  return a - b;
 }
