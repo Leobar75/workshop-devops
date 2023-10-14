@@ -28,6 +28,8 @@ jobs:
           node-version: "18"
       - name: Install Dependencies
         run: npm ci
+      - name: Automated testing
+        run: node test.js
       - name: Generate Static files
         run: npm run build
       - name: Archive artifact
