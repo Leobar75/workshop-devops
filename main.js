@@ -25,4 +25,4 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
-setupCounter(document.querySelector('#counter-5', 5))
+setupCounter(document.querySelector('#counter-5'), 5)
